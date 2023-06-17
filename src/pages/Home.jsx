@@ -27,8 +27,6 @@ export function Home() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const obj = useBoxes();
-  console.log(obj);
 
   return (
     <div className="container">
